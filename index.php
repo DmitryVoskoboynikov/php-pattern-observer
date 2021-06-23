@@ -43,3 +43,6 @@ $test->onA[] = function($msg, $text) {
 };
 
 $test->A("Le Test");
+
+//$test->onA[] = "some_function";
+//$test->onA[] = array(&$some_object, "some_method");
